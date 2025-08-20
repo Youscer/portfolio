@@ -17,7 +17,8 @@
             </div>
             <div class="flex">
               <a :href="project.git" target="_blank" class="mr-5 text-blue-600 hover:underline">Code</a>
-              <a v-if="project.demo != ''" :href="project.demo" target="_blank" class="text-green-600 hover:underline">Démo</a>
+              <a v-if="project.demo != ''" :href="project.demo" target="_blank"
+                class="text-green-600 hover:underline">Démo</a>
             </div>
           </div>
         </div>
@@ -32,7 +33,7 @@ const projects = [
     id: 1,
     title: 'Portfolio',
     description: 'Ce site actuel',
-    image: '/src/assets/scrn_portfolio.png',
+    image: '/portfolio/src/assets/scrn_portfolio.png',
     git: 'https://github.com/Youscer/portfolio',
     demo: '/',
     technos: ["Vue", "Tailwind"],
@@ -41,7 +42,7 @@ const projects = [
     id: 2,
     title: 'Canyon Me',
     description: 'Platform e-commerce',
-    image: '/src/assets/scrn_canyonme.png',
+    image: '/portfolio/src/assets/scrn_canyonme.png',
     git: 'https://github.com/Youscer/CanyonMe',
     demo: '',
     technos: ["Angular", "SpringBoot"],
@@ -50,7 +51,7 @@ const projects = [
     id: 3,
     title: 'Top Smash',
     description: 'Jeu de combat multijoueur',
-    image: '/src/assets/fgame_20fps_16p9.gif',
+    image: '/portfolio/src/assets/fgame_20fps_16p9.gif',
     git: 'https://gitlab.com/dystudio/versusgame',
     demo: '',
     technos: ["Godot", "C#"],

@@ -4,9 +4,9 @@ import ProjectsView from '../views/ProjectsView.vue'
 import ContactView from '../views/ContactView.vue'
 
 const routes = [
-  { path: '/', name: 'Home', component: HomeView },
-  { path: '/projects', name: 'Projects', component: ProjectsView },
-  { path: '/contact', name: 'Contact', component: ContactView },
+  { path: '/portfolio', name: 'Home', component: HomeView },
+  { path: '/portfolio/projects', name: 'Projects', component: ProjectsView },
+  { path: '/portfolio/contact', name: 'Contact', component: ContactView },
 ]
 
 const router = createRouter({
