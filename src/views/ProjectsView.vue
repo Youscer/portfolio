@@ -16,7 +16,7 @@
                   techno }}</span>
             </div>
             <div class="flex">
-              <a :href="project.github" target="_blank" class="mr-5 text-blue-600 hover:underline">Code</a>
+              <a :href="project.git" target="_blank" class="mr-5 text-blue-600 hover:underline">Code</a>
               <a v-if="project.demo != ''" :href="project.demo" target="_blank" class="text-green-600 hover:underline">Démo</a>
             </div>
           </div>
@@ -33,7 +33,7 @@ const projects = [
     title: 'Portfolio',
     description: 'Ce site actuel',
     image: '/src/assets/scrn_portfolio.png',
-    github: 'https://github.com',
+    git: 'https://github.com/Youscer/portfolio',
     demo: '/',
     technos: ["Vue", "Tailwind"],
   },
@@ -42,7 +42,7 @@ const projects = [
     title: 'Canyon Me',
     description: 'Platform e-commerce',
     image: '/src/assets/scrn_canyonme.png',
-    github: 'https://github.com/Youscer/CanyonMe',
+    git: 'https://github.com/Youscer/CanyonMe',
     demo: '',
     technos: ["Angular", "SpringBoot"],
   },
@@ -51,7 +51,7 @@ const projects = [
     title: 'Top Smash',
     description: 'Jeu de combat multijoueur',
     image: '/src/assets/fgame_20fps_16p9.gif',
-    github: 'https://gitlab.com/dystudio/versusgame',
+    git: 'https://gitlab.com/dystudio/versusgame',
     demo: '',
     technos: ["Godot", "C#"],
   },
